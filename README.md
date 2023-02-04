@@ -30,3 +30,21 @@
 ```
 
 <hr>
+
+- src/tsconfig.json
+
+  - src/code
+
+            ```
+                "target": "es2018",
+                "moduleResolution": "node",
+                 "outDir": "./dist",
+                 "rootDir": "./src",
+
+            ```
+
+- package installation
+<hr>
+
+- npm i --save express body-parser
+- npm i --save-dev nodemon
