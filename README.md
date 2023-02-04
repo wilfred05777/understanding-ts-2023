@@ -16,4 +16,17 @@
 
 - npm i express dotenv
 - npx tsc --init
--
+
+<hr>
+
+- /src/.prettierrc
+
+```
+{
+  "singleQuote": true,
+  "bracketSpacing": true,
+  "printWidth": 120
+}
+```
+
+<hr>
