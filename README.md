@@ -4,12 +4,16 @@
 
 - video source: [resource2](https://www.udemy.com/course/understanding-typescript/learn/lecture/16999296#overview)
 
+- video source: [resource3](https://auth0.com/blog/node-js-and-typescript-tutorial-build-a-crud-api/)
+
+-
+
 <hr>
 
 - mkdir dir_name
 - npm init -y
 - npm i -D typescript tsc-watch eslint prettier eslint-config-prettier eslint-plugin-prettier @typescript-eslint/parser @typescript-eslint/eslint-plugin @types/node @types/express
 
-- npm i express dotenv 
+- npm i express dotenv
 - npx tsc --init
-- 
+-
