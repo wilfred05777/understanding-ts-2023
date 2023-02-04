@@ -121,6 +121,9 @@
   },
   "scripts": {
     "start": "node dist/index.ts",
+    "dev":"tsc-watch --onSuccess \"node ./dist/index.js\"",
+    "build": "tsc",
+    "postinstall": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
