@@ -4,7 +4,7 @@
 
 - video source: [resource2](https://www.udemy.com/course/understanding-typescript/learn/lecture/16999296#overview)
 
-- video source: [resource3](https://auth0.com/blog/node-js-and-typescript-tutorial-build-a-crud-api/)
+- article source: [resource3](https://auth0.com/blog/node-js-and-typescript-tutorial-build-a-crud-api/)
 
 -
 
