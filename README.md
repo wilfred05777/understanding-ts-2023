@@ -6,7 +6,7 @@
 
 - article source: [resource3](https://auth0.com/blog/node-js-and-typescript-tutorial-build-a-crud-api/)
 
--
+- NPM Docs source: [Typescript-node-package](https://www.npmjs.com/package/ts-node)
 
 <hr>
 
