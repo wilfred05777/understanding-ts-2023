@@ -59,3 +59,12 @@
 ```.json
 "start": "nodemon dist/app.js"
 ```
+
+```
+//app.ts
+import express, { Request, Response, NextFunction } from 'express';
+
+app.use((err: Error, req: Request, res: Response, next: NextFunction) => {
+  res.json({ message: err.message });
+});
+```
