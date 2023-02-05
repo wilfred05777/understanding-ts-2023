@@ -51,3 +51,11 @@
 
 - npm i --save express body-parser
 - npm i --save-dev nodemon
+
+<hr>
+
+- tsc -w
+
+```.json
+"start": "nodemon dist/app.js"
+```
