@@ -60,11 +60,28 @@
 "start": "nodemon dist/app.js"
 ```
 
+<hr>
+
+<!-- Max  -->
+
+###### keep take aways -02-06-2023 MOnday
+
 ```
 //app.ts
 import express, { Request, Response, NextFunction } from 'express';
 
 app.use((err: Error, req: Request, res: Response, next: NextFunction) => {
-  res.json({ message: err.message });
+res.json({ message: err.message });
 });
+
+```
+
+```js
+//  Pwede anion para di na magbutang ug tagsa2 ka types pero sa express ra pud,
+// How about other approach kung dili na express gamiton?
+
+// import { Request, Response, NextFunction } from 'express';
+import { RequestHandler } from 'express';
+
+export const createTodo: RequestHandler = (req, res, next) => {};
 ```
