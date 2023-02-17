@@ -85,3 +85,23 @@ import { RequestHandler } from 'express';
 
 export const createTodo: RequestHandler = (req, res, next) => {};
 ```
+
+
+## --- MERN-TS: Solution for NODE-TS Server configuration setup year 2023
+[source article](https://codingbeautydev.com/blog/ts-node-unknown-file-extension-ts/)
+```json
+// Remove "type": "module" from tsconfig.json file
+// Alternatively, instead of doing all of the above, you can simply remove the "type": "module" field from your package.json file.
+
+{
+  "name": "cb-js",
+  "version": "1.0.0",
+  "main": "index.js",
+  // removed: "type": "module",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^2.8.1"
+  }
+}
+
+```
